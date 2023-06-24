@@ -1,0 +1,74 @@
+body {
+  background-color: cadetblue;
+}
+.container {
+  padding: 30opx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.container > div {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 2px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+#cryptoTable {
+  margin-top: 30px;
+  background-color: rgb(246, 229, 229);
+  border: 2px solid red;
+}
+
+#search:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+#sortByMarketCap:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+#sortByPercentageChange:hover {
+  cursor: pointer;
+  background-color: rgb(12, 191, 251);
+}
+
+#searchInput {
+  width: 300px;
+}
+
+#cryptoTable {
+  background-color: white;
+}
+
+#cryptoTable.clicked {
+  background-color: rgb(172, 12, 12);
+}
